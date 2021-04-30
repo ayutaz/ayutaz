@@ -10,5 +10,5 @@
 
 
 ## ⚡ Status
-[![Yousan's github stats](https://readme-stats.psbss.vercel.app/api?username=ayutaz&count_private=true&show_icons=true&theme=algolia)](https://github.com/ayutaz/)
+[![Yousan's github stats](https://readme-stats.psbss.vercel.app/api?username=ayutaz&include_all_commits=true&show_icons=true&theme=algolia)](https://github.com/ayutaz/)
 [![Top used Langs](https://readme-stats.psbss.vercel.app/api/top-langs/?username=ayutaz&hide=php,blade&layout=compact&theme=algolia)](https://github.com/ayutaz/)
