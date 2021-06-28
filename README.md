@@ -36,4 +36,4 @@
 
 - UnityでGithubActions(CI/CD)を使ってみた
   - [個人開発でGithub ActionsでUnityのCI/CDを使ってみた 【Unity,Github Actions(game-ci)】](https://ayousanz.hatenadiary.jp/entry/2021/05/27/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA%E3%81%A7Github_Actions%E3%81%A7Unity%E3%81%AECI/CD%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F_%E3%80%90Unity%2CGithub_Actions%28game-ci%29%E3%80%91)
-  - [Unity-CITest-GameCI](https://github.com/ayutaz/Unity-CITest-GameCI)
+  - [開発リポジトリ](https://github.com/ayutaz/Unity-CITest-GameCI)
