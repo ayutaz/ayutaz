@@ -1,7 +1,7 @@
 # Hello World 🌏
 -  I am xR Engineer 💻 I'm learning architecture,Uniy,UE and etc..
 - [Twitter](https://twitter.com/ayousanz)
-- [Blog](https://ayousanz.hatenadiary.jp/) ← こちらがメインです
+- [Blog](https://ayousanz.hatenadiary.jp/) ← 技術記事は,こちらがメインです
 - [Qiita](https://qiita.com/ayousanz)
 - [Zenn](https://zenn.dev/ayousanz)
 - [UnityRoom](https://unityroom.com/users/ayousanz)
