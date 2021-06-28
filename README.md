@@ -40,7 +40,7 @@
   - [開発リポジトリ](https://github.com/ayutaz/Unity-CITest-GameCI)
 
 ### 進行中プロジェクト
-- 非同期型2D収集ゲーム(仮)
+- 非同期型2D収集ゲーム(仮)(個人)
   - ゲームコンテスト応募予定
 
 - DreamIslandTeam(チーム)
@@ -52,5 +52,5 @@
   - [公式twitter](https://twitter.com/Risegameteam)
   - [公式サイト](https://dubd8946.wixsite.com/risegameteam)
 
-- 名前なし？(チーム
+- 名前なし？(チーム)
   - チェストと将棋を合わせたボードゲームPC版
