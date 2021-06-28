@@ -1,7 +1,9 @@
 # Hello World 🌏
 -  I am xR Engineer 💻
 - :eyeglasses: Twitter @ayousanz - [link](https://twitter.com/ayousanz)
-- 📖 Blog - [link](https://ayousanz.hatenadiary.jp/)
+- 📖 Blog - [link](https://ayousanz.hatenadiary.jp/) ← こちらがメインです
+- Qiita - [link](https://qiita.com/ayousanz)
+- Zenn - [link](https://zenn.dev/ayousanz)
 - UnityRoom [link](https://unityroom.com/users/ayousanz)
 
 ## 🌱 Learning
