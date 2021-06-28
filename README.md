@@ -1,14 +1,10 @@
 # Hello World 🌏
--  I am xR Engineer 💻
+-  I am xR Engineer 💻 I'm learning architecture,Uniy,UE and etc..
 - :eyeglasses: Twitter @ayousanz - [link](https://twitter.com/ayousanz)
 - 📖 Blog - [link](https://ayousanz.hatenadiary.jp/) ← こちらがメインです
 - Qiita - [link](https://qiita.com/ayousanz)
 - Zenn - [link](https://zenn.dev/ayousanz)
 - UnityRoom [link](https://unityroom.com/users/ayousanz)
-
-## 🌱 Learning
-[![Unity](https://img.shields.io/badge/-Unity-ffffff?style=for-the-badge&labelColor=FA7343&logoColor=ffffff&color=f5f5f5&logo=swift)](https://unity.com/ja)
-[![C#](https://img.shields.io/badge/-CSharp-ffffff?style=for-the-badge&labelColor=3776AB&logoColor=ffffff&color=f5f5f5&logo=python)](https://docs.microsoft.com/ja-jp/dotnet/csharp/)
 
 
 ## ⚡ Status
