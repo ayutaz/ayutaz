@@ -39,13 +39,17 @@
   - [個人開発でGithub ActionsでUnityのCI/CDを使ってみた 【Unity,Github Actions(game-ci)】](https://ayousanz.hatenadiary.jp/entry/2021/05/27/%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA%E3%81%A7Github_Actions%E3%81%A7Unity%E3%81%AECI/CD%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F_%E3%80%90Unity%2CGithub_Actions%28game-ci%29%E3%80%91)
   - [開発リポジトリ](https://github.com/ayutaz/Unity-CITest-GameCI)
 
-## その他チーム開発
-- DreamIslandTeam
+### 進行中プロジェクト
+- 非同期型2D収集ゲーム(仮)
+  - ゲームコンテスト応募予定
+
+- DreamIslandTeam(チーム)
   - 3D探索アクションゲーム
   - [公式twitter](https://twitter.com/HUNTERH98736415)
-- Rise
+  
+- Rise(チーム)
   - いろいろゲーム作ってる → 来年度の日本ゲーム大賞に出す目標で制作中
   - [公式twitter](https://twitter.com/Risegameteam)
 
-- 名前なし？
+- 名前なし？(チーム
   - チェストと将棋を合わせたボードゲームPC版
