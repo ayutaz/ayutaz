@@ -1,5 +1,5 @@
 # Hello World 🌏
--  I am xR Engineer 💻 I'm learning architecture,Uniy,UE and etc..
+-  I am xR Engineer 💻 I'm learning architecture,network,UE and etc..
 - [Twitter](https://twitter.com/ayousanz)
 - [Blog](https://ayousanz.hatenadiary.jp/) ← 技術記事はこちらがメインです
 - [Qiita](https://qiita.com/ayousanz)
