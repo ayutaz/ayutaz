@@ -46,11 +46,6 @@
 - DreamIslandTeam(チーム)
   - 3D探索アクションゲーム
   - [公式twitter](https://twitter.com/HUNTERH98736415)
-  
-- Rise(チーム)
-  - いろいろゲーム作ってる → 来年度の日本ゲーム大賞に出す目標で制作中
-  - [公式twitter](https://twitter.com/Risegameteam)
-  - [公式サイト](https://dubd8946.wixsite.com/risegameteam)
 
 - 名前なし？(チーム)
   - チェストと将棋を合わせたボードゲームPC版
