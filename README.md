@@ -5,6 +5,7 @@
 - [Qiita](https://qiita.com/ayousanz)
 - [Zenn](https://zenn.dev/ayousanz)
 - [UnityRoom](https://unityroom.com/users/ayousanz)
+- [Blender成果物::sketchfab](https://sketchfab.com/ayousanz)
 
 
 ## ⚡ Status
