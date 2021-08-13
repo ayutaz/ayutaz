@@ -40,8 +40,6 @@
   - [開発リポジトリ](https://github.com/ayutaz/Unity-CITest-GameCI)
 
 ### 進行中プロジェクト
-- 非同期型2D収集ゲーム(仮)(個人)
-  - ゲームコンテスト応募予定
 
 - DreamIslandTeam(チーム)
   - 3D探索アクションゲーム
