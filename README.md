@@ -2,8 +2,6 @@
 -  I am xR Engineer 💻 I'm learning architecture,network,UE and etc..
 - [Twitter](https://twitter.com/ayousanz)
 - [Blog](https://ayousanz.hatenadiary.jp/) ← 技術記事はこちらがメインです
-- [Qiita](https://qiita.com/ayousanz)
-- [Zenn](https://zenn.dev/ayousanz)
 - [UnityRoom](https://unityroom.com/users/ayousanz)
 - [Blender成果物::sketchfab](https://sketchfab.com/ayousanz)
 
