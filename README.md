@@ -8,7 +8,7 @@
 
 ## ⚡ Status
 [![Yousan's github stats](https://github-readme-stats.vercel.app/api?username=ayutaz&show_icons=true&count_private=true&theme=github_dark)](https://github.com/ayutaz/)
-[![Top used Langs](https://readme-stats.psbss.vercel.app/api/top-langs/?username=ayutaz&hide=php,blade&layout=compact&theme=algolia)](https://github.com/ayutaz/)
+[![Top used Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ayutaz)](https://github.com/ayutaz/)
 
 
 ## Portfolio
@@ -43,6 +43,3 @@
 - DreamIslandTeam(チーム)
   - 3D探索アクションゲーム
   - [公式twitter](https://twitter.com/HUNTERH98736415)
-
-- 名前なし？(チーム)
-  - チェストと将棋を合わせたボードゲームPC版
