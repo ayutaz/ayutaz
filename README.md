@@ -38,7 +38,7 @@
   - [MV(R)Pでゲームを作ってみた【Unity,Unity1Week】](https://ayousanz.hatenadiary.jp/entry/2021/05/03/MV%28R%29P%E3%81%A7%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E3%80%90Unity%2CUnity1Week%E3%80%91)
   - [UnityRoom](https://unityroom.com/games/yousan_unity1week_0426)
 
-- 【プルプルスライム】縦スクロールアクションゲーム(Unity1week「ちゅー」)
+- 【プルプルスライム】縦スクロールアクションゲーム(Unity1week「ちゅう」)
   - [Twitter公開デモ](https://twitter.com/ayousanz/status/1437133042166816770)
   - [UnityRoom](https://unityroom.com/games/pull_pull_slime)
   - [製作記事]()
