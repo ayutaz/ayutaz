@@ -2,8 +2,7 @@
 -  I am xR Engineer 💻 I'm learning architecture,network,Unity and etc..
 - [Portfolio](https://yousan.notion.site/)
 - [Twitter](https://twitter.com/ayousanz)
-- [Blog](https://ayousanz.hatenadiary.jp/) ← 技術記事はこちらがメインです
-
+- [Blog](https://ayousanz.hatenadiary.jp/)
 
 ## ⚡ Status
 <!-- <a href="https://github.com/anuraghazra/github-readme-stats">
