@@ -1,5 +1,5 @@
 # Hello World 🌏
--  I am xR Engineer 💻 I'm learning architecture,network,Unity and etc..
+-  I am Unity Engineer 💻 I'm learning architecture,network,Unity and etc..
 - [Portfolio](https://yousan.notion.site/)
 - [Twitter](https://twitter.com/ayousanz)
 - [Blog](https://ayousanz.hatenadiary.jp/)
