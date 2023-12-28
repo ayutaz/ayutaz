@@ -2,7 +2,7 @@
 -  I am Unity Engineer 💻 I'm learning architecture,network,Unity and etc..
 - [Portfolio](https://yousan.notion.site/)
 - [Twitter](https://twitter.com/ayousanz)
-- [Blog](https://ayousanz.hatenadiary.jp/)
+- [Blog](https://ayousanz.hatenadiary.jp/archive)
 
 ## ⚡ Status
 <!-- <a href="https://github.com/anuraghazra/github-readme-stats">
