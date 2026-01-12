@@ -1,7 +1,8 @@
 # Hello World 🌏
--  I am Unity Engineer 💻 I'm learning architecture,network,Unity and etc..
+-  I am Unity Engineer and ML(DS) Engineer. 💻 I'm working text to speech,Unity and etc..
+
 - [Portfolio](https://yousan.notion.site/)
-- [Twitter](https://twitter.com/ayousanz)
+- [X](https://x.com/ayousanz)
 - [Blog](https://ayousanz.hatenadiary.jp/archive)
 
 ## ⚡ Status
