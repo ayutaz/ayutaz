@@ -13,5 +13,5 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayutaz&show_icons=true&count_private=true&theme=github_dark" />
 </a>
 <br> -->
-[![Yousan's github stats](https://github-readme-stats.vercel.app/api?username=ayutaz&show_icons=true&count_private=true&theme=github_dark)](https://github.com/ayutaz/)
-[![Top used Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ayutaz&show_icons=true&count_private=true&theme=github_dark)](https://github.com/ayutaz/)
+[![Yousan's github stats](https://github-readme-stats-black-three-46.vercel.app/api/?username=ayutaz&show_icons=true&count_private=true&theme=github_dark)](https://github.com/ayutaz/)
+[![Top used Langs](https://github-readme-stats-black-three-46.vercel.app/api/?username=ayutaz&show_icons=true&count_private=true&theme=github_dark)](https://github.com/ayutaz/)
