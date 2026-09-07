@@ -13,8 +13,8 @@
 5. **M4 - Local verification**
    - **Complete locally**: full unit suite plus a real public-data generation using the authenticated local GitHub account. The live run fetched 201 public non-fork repositories over three pages and selected 31 non-archived repositories.
 6. **M5 - Production activation**
-   - **Complete**: initial generated assets and the README migration are delivered to `main`; both cards were verified on the public GitHub profile in a light-theme browser session.
-   - **In verification**: use the ephemeral built-in `GITHUB_TOKEN`, manually run the workflow, and repeat the profile review in a dark-theme browser session. Each completed production step must be recorded separately; a local result is not production evidence.
+   - **Complete**: initial generated assets and the README migration are delivered to `main`; both cards were verified on the public GitHub profile in light and dark browser sessions.
+   - **Complete**: production runs `34130625978` and `34130809877` verified the ephemeral built-in `GITHUB_TOKEN`, Python 3.13.13, all 19 tests, three-page public API collection, asset publication, and the unchanged-data path.
 
 ## Completion gates
 
@@ -25,4 +25,4 @@
 - Generated metadata contains no repository names or credentials.
 - The README refers only to repository-hosted assets.
 - The workflow has both `schedule` and `workflow_dispatch` triggers.
-- Production success and final visual quality remain explicit post-push gates.
+- Production success and final visual quality were verified after push.

@@ -28,7 +28,7 @@
 
 ## Manual production checks
 
-- **Open**: run the secret-free workflow manually and inspect its permissions and logs.
-- **Confirmed 2026-09-07**: both SVGs render completely in a browser, and the public GitHub profile displays both cards in a light-theme browser session.
-- **Open**: repeat the public-profile review in a dark-theme browser session.
+- **Confirmed 2026-09-07**: secret-free production run `34130625978` completed with only `Contents: write` and `Metadata: read`, passed 19 tests, fetched three API pages, and published changed assets.
+- **Confirmed 2026-09-07**: repeat production run `34130809877` completed successfully and reported both generator and repository assets as unchanged.
+- **Confirmed 2026-09-07**: both SVGs render completely in a browser, and the public GitHub profile displays both cards in light and dark browser sessions.
 - **Confirmed 2026-09-07**: old Vercel URLs are absent after the committed migration.
