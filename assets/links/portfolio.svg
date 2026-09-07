@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="180" viewBox="0 0 360 180" role="img" aria-labelledby="title description">
+  <title id="title">Portfolio</title>
+  <desc id="description">Open Yousan's portfolio</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="0.55" stop-color="#3730a3"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="358" height="178" rx="16" fill="url(#background)" stroke="#a5b4fc" stroke-opacity="0.55"/>
+  <circle cx="316" cy="34" r="68" fill="#c4b5fd" fill-opacity="0.12"/>
+  <circle cx="292" cy="154" r="54" fill="#60a5fa" fill-opacity="0.13"/>
+  <rect x="24" y="25" width="72" height="58" rx="9" fill="url(#shine)" stroke="#e0e7ff" stroke-opacity="0.7"/>
+  <circle cx="36" cy="37" r="3" fill="#fda4af"/>
+  <circle cx="47" cy="37" r="3" fill="#fde68a"/>
+  <circle cx="58" cy="37" r="3" fill="#86efac"/>
+  <path d="M35 68l14-15 12 10 10-8 14 13" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="24" y="119" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">Portfolio</text>
+  <text x="24" y="143" fill="#e0e7ff" font-family="Segoe UI,Arial,sans-serif" font-size="15">Works &amp; projects</text>
+  <text x="336" y="157" fill="#ffffff" fill-opacity="0.72" font-family="Segoe UI,Arial,sans-serif" font-size="13" text-anchor="end">yousan.notion.site</text>
+</svg>

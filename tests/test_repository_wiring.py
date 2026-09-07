@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import unittest
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
@@ -30,6 +31,26 @@ class RepositoryWiringTests(unittest.TestCase):
         self.assertIn("./assets/top-languages.svg", readme)
         self.assertNotIn("github-readme-stats", readme)
         self.assertNotIn("vercel.app", readme)
+
+    def test_readme_uses_clickable_local_link_thumbnails(self) -> None:
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        links = {
+            "portfolio": ("Portfolio", "https://yousan.notion.site/"),
+            "x": ("X", "https://x.com/ayousanz"),
+            "blog": ("Blog", "https://ayousanz.hatenadiary.jp/archive"),
+        }
+
+        for name, (label, url) in links.items():
+            expected = (
+                f'<a href="{url}"><img src="./assets/links/{name}.svg" '
+                f'alt="{label}" width="31%"></a>'
+            )
+            self.assertIn(expected, readme)
+
+            thumbnail = ROOT / "assets" / "links" / f"{name}.svg"
+            root = ET.fromstring(thumbnail.read_text(encoding="utf-8"))
+            self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg")
+            self.assertEqual(root.attrib["role"], "img")
 
     def test_project_requires_python_313_or_newer(self) -> None:
         pyproject = (ROOT / "pyproject.toml").read_text(encoding="utf-8")
