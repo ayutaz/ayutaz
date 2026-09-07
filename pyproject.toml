@@ -1,0 +1,10 @@
+[project]
+name = "ayutaz-github-profile-stats"
+version = "0.1.0"
+description = "Dependency-free static GitHub profile statistics card generator"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv]
+package = false
+required-version = ">=0.11.8,<0.12"

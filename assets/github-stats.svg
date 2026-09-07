@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="225" viewBox="0 0 495 225" role="img" aria-labelledby="stats-title stats-desc">
+  <title id="stats-title">Yousan's GitHub Stats</title>
+  <desc id="stats-desc">Repository portfolio statistics for ayutaz</desc>
+  <style>
+    .title { font: 600 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #58a6ff; }
+    .subtitle { font: 400 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
+    .label { font: 400 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
+    .value { font: 600 15px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #c9d1d9; }
+  </style>
+  <rect x="0.5" y="0.5" width="494" height="224" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="36" class="title">Yousan's GitHub Stats</text>
+  <text x="24" y="58" class="subtitle">@ayutaz · active repository portfolio</text>
+  <line x1="24" y1="73" x2="471" y2="73" stroke="#21262d"/>
+  <circle cx="28" cy="96" r="3" fill="#58a6ff"/><text x="38" y="101" class="label">Active repositories</text><text x="38" y="119" class="value">31</text><circle cx="263" cy="96" r="3" fill="#58a6ff"/><text x="273" y="101" class="label">Stars earned</text><text x="273" y="119" class="value">497</text><circle cx="28" cy="138" r="3" fill="#58a6ff"/><text x="38" y="143" class="label">Forks earned</text><text x="38" y="161" class="value">54</text><circle cx="263" cy="138" r="3" fill="#58a6ff"/><text x="273" y="143" class="label">Followers</text><text x="273" y="161" class="value">74</text><circle cx="28" cy="180" r="3" fill="#58a6ff"/><text x="38" y="185" class="label">Languages</text><text x="38" y="203" class="value">25</text><circle cx="263" cy="180" r="3" fill="#58a6ff"/><text x="273" y="185" class="label">Code measured</text><text x="273" y="203" class="value">68.4 MiB</text>
+</svg>

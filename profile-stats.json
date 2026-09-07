@@ -1,0 +1,12 @@
+{
+  "username": "ayutaz",
+  "output_directory": "assets",
+  "token_environment": "PROFILE_STATS_TOKEN",
+  "include_private": false,
+  "include_archived": false,
+  "include_forks": false,
+  "exclude_repositories": [],
+  "languages_count": 6,
+  "stats_title": "Yousan's GitHub Stats",
+  "languages_title": "Top Languages"
+}

@@ -1,0 +1,56 @@
+name: Update profile stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+      timezone: "Asia/Tokyo"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    name: Generate and publish cards
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up uv and Python
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        with:
+          version: "0.11.8"
+          python-version: "3.13"
+          enable-cache: true
+
+      - name: Synchronize the locked environment
+        run: uv sync --locked
+
+      - name: Run tests
+        run: uv run --locked python -m unittest discover -s tests -v
+
+      - name: Generate profile cards
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: uv run --locked python tools/generate_github_stats.py
+
+      - name: Commit changed cards
+        shell: bash
+        run: |
+          if git diff --quiet -- assets; then
+            echo "Profile card data is unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- assets
+          git commit -m "chore: update profile stats"
+          git push
