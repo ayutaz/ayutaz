@@ -30,5 +30,6 @@
 
 - **Open**: verify the Actions secret exists without exposing its value.
 - **Open**: run the workflow manually and inspect its permissions and logs.
-- **Open**: open both raw SVG files and the GitHub profile in light and dark browser themes.
-- **Open**: confirm old Vercel URLs are absent after the committed migration.
+- **Confirmed 2026-09-07**: both SVGs render completely in a browser, and the public GitHub profile displays both cards in a light-theme browser session.
+- **Open**: repeat the public-profile review in a dark-theme browser session.
+- **Confirmed 2026-09-07**: old Vercel URLs are absent after the committed migration.
