@@ -28,7 +28,7 @@
 - **Decided**: Version 1 reports repository portfolio metrics, not an imitation of the undocumented `github-readme-stats` rank.
 - **Decided**: Version 1 does not publish private repository aggregates.
 - **Proposed**: A later version may add opt-in contribution metrics after their visibility semantics are documented and tested.
-- **Open**: Production activation requires a read-only `PROFILE_STATS_TOKEN` Actions secret and an explicit commit/push request.
+- **Decided**: Production uses the repository-scoped, job-scoped `GITHUB_TOKEN`; no long-lived Actions secret is required for the public-only policy.
 
 ## Supported toolchain
 

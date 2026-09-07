@@ -2,9 +2,9 @@
 
 ## Token policy
 
-- **Decided**: Store the API token only in the `PROFILE_STATS_TOKEN` GitHub Actions secret.
-- **Decided**: Use a fine-grained, read-only token. Public-only aggregation is the initial policy.
-- **Decided**: Never reuse a broad local GitHub CLI credential as the workflow secret.
+- **Decided**: Use the short-lived `GITHUB_TOKEN` created automatically for each Actions job; do not create a long-lived repository secret for the public-only policy.
+- **Decided**: Pass the built-in token to the generator only through its process environment under the expected `PROFILE_STATS_TOKEN` name.
+- **Decided**: Never reuse a broad local GitHub CLI credential as a workflow credential.
 - **Decided**: Never print request headers, environment variables, or token values.
 
 ## Publication policy
@@ -28,8 +28,7 @@
 
 ## Manual production checks
 
-- **Open**: verify the Actions secret exists without exposing its value.
-- **Open**: run the workflow manually and inspect its permissions and logs.
+- **Open**: run the secret-free workflow manually and inspect its permissions and logs.
 - **Confirmed 2026-09-07**: both SVGs render completely in a browser, and the public GitHub profile displays both cards in a light-theme browser session.
 - **Open**: repeat the public-profile review in a dark-theme browser session.
 - **Confirmed 2026-09-07**: old Vercel URLs are absent after the committed migration.

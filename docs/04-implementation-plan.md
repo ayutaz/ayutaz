@@ -14,7 +14,7 @@
    - **Complete locally**: full unit suite plus a real public-data generation using the authenticated local GitHub account. The live run fetched 201 public non-fork repositories over three pages and selected 31 non-archived repositories.
 6. **M5 - Production activation**
    - **Complete**: initial generated assets and the README migration are delivered to `main`; both cards were verified on the public GitHub profile in a light-theme browser session.
-   - **Open after delivery**: create a dedicated read-only `PROFILE_STATS_TOKEN`, add it as an Actions secret, manually run the workflow, and repeat the profile review in a dark-theme browser session. Each completed production step must be recorded separately; a local result is not production evidence.
+   - **In verification**: use the ephemeral built-in `GITHUB_TOKEN`, manually run the workflow, and repeat the profile review in a dark-theme browser session. Each completed production step must be recorded separately; a local result is not production evidence.
 
 ## Completion gates
 

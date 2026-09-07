@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class RepositoryWiringTests(unittest.TestCase):
-    def test_workflow_uses_uv_python_313_and_separate_tokens(self) -> None:
+    def test_workflow_uses_uv_python_313_and_ephemeral_token(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "update-profile-stats.yml").read_text(
             encoding="utf-8"
         )
@@ -20,7 +20,8 @@ class RepositoryWiringTests(unittest.TestCase):
         self.assertIn('python-version: "3.13"', workflow)
         self.assertIn("uv sync --locked", workflow)
         self.assertIn("uv run --locked python -m unittest", workflow)
-        self.assertIn("PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}", workflow)
+        self.assertIn("PROFILE_STATS_TOKEN: ${{ github.token }}", workflow)
+        self.assertNotIn("secrets.PROFILE_STATS_TOKEN", workflow)
 
     def test_readme_uses_only_repository_hosted_cards(self) -> None:
         readme = (ROOT / "README.md").read_text(encoding="utf-8")

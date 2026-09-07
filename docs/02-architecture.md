@@ -33,10 +33,9 @@ commit changed assets with the workflow GITHUB_TOKEN
 
 ## Authentication boundaries
 
-- `PROFILE_STATS_TOKEN`: read-only data token exposed only to the generator step.
-- `GITHUB_TOKEN`: short-lived workflow token with `contents: write`, used only to commit assets to this repository.
-
-The two credentials are intentionally not interchangeable.
+- GitHub Actions creates a short-lived `GITHUB_TOKEN` for each job. The workflow passes it to the generator as `PROFILE_STATS_TOKEN` and uses it to commit changed assets to this repository.
+- The token is repository-scoped and expires after the job. No personal access token or long-lived repository secret is required for the public-only aggregation policy.
+- The workflow grants only `contents: write`; unspecified workflow permissions remain disabled.
 
 ## Repository layout
 

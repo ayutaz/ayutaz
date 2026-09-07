@@ -9,7 +9,7 @@ uv sync --locked
 uv run --locked python -m unittest discover -s tests -v
 ```
 
-For a local live generation, provide a dedicated read-only token only for the process session:
+For a local live generation, provide a read-only token only for the process session:
 
 ```powershell
 $env:PROFILE_STATS_TOKEN = Read-Host -MaskInput "Read-only GitHub token"
@@ -24,13 +24,10 @@ Do not paste a token into `profile-stats.json`, a workflow file, command history
 
 ## First production activation
 
-1. Create a dedicated fine-grained token for `ayutaz` with read-only access.
-2. In `ayutaz/ayutaz`, open **Settings -> Secrets and variables -> Actions**.
-3. Add a repository secret named `PROFILE_STATS_TOKEN`.
-4. Open **Actions -> Update profile stats -> Run workflow**.
-5. Confirm the test and generation steps succeed.
-6. Confirm the workflow either commits changed assets or reports that the data is unchanged.
-7. Open the profile and review both cards visually.
+1. Open **Actions -> Update profile stats -> Run workflow**.
+2. Confirm the test and generation steps succeed with the automatically created `GITHUB_TOKEN`.
+3. Confirm the workflow either commits changed assets or reports that the data is unchanged.
+4. Open the profile and review both cards visually.
 
 ## Scheduled operation
 
@@ -38,12 +35,7 @@ The workflow runs daily at 03:17 in `Asia/Tokyo` and can also be started with `w
 
 If the API or token fails, the workflow exits before committing. The last committed SVGs remain visible.
 
-## Token rotation
-
-1. Create the replacement read-only token before revoking the old one.
-2. Replace the `PROFILE_STATS_TOKEN` Actions secret.
-3. Run the workflow manually and verify both cards.
-4. Revoke the old token only after the successful run.
+No token rotation is needed: GitHub creates a short-lived token for every job and expires it after the job.
 
 ## Retiring the Vercel deployment
 
