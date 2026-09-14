@@ -1,48 +1,48 @@
 {
-  "data_digest": "01f36050025ea337df598c7890a04173a3fdf58899ede1105df3f90b1120acad",
+  "data_digest": "aaf8cfc2e26ad57ab89d81bc08204d8428cfa47074ce3a5791011a10cd6880b3",
   "excluded_counts": {
     "archived": 170,
     "fork": 0,
     "named": 0,
     "private": 0
   },
-  "fetched_repositories": 201,
-  "generated_at": "2026-09-13T20:52:56.535262Z",
+  "fetched_repositories": 202,
+  "generated_at": "2026-09-14T21:51:42.201335Z",
   "languages": [
     {
       "color": "#dea584",
       "name": "Rust",
-      "percentage": 42.852637730692045,
+      "percentage": 42.643293167234056,
       "size": 37297802
     },
     {
       "color": "#3572A5",
       "name": "Python",
-      "percentage": 24.924999443342454,
+      "percentage": 24.80323533723423,
       "size": 21694060
     },
     {
       "color": "#7355dd",
       "name": "C#",
-      "percentage": 9.887264036082714,
+      "percentage": 9.838962575938403,
       "size": 8605613
     },
     {
       "color": "#f34b7d",
       "name": "C++",
-      "percentage": 7.0826567177122595,
+      "percentage": 7.048056381368663,
       "size": 6164557
     },
     {
       "color": "#89e051",
       "name": "Shell",
-      "percentage": 6.5421807285180105,
+      "percentage": 6.51022073629345,
       "size": 5694141
     },
     {
       "color": "#555555",
       "name": "C",
-      "percentage": 2.11935785639807,
+      "percentage": 2.1090043269829803,
       "size": 1844633
     }
   ],
@@ -57,8 +57,8 @@
   "repository_pages": 3,
   "schema_version": 1,
   "stats": {
-    "active_repositories": 31,
-    "code_bytes": 87037354,
+    "active_repositories": 32,
+    "code_bytes": 87464638,
     "followers": 74,
     "forks": 56,
     "language_count": 26,
