@@ -1,5 +1,5 @@
 {
-  "data_digest": "d4aca6dfab3cb5c4c00ede90a17dd267915a76f32d518b8d532b2d55069727cf",
+  "data_digest": "7131460d8263efa159f2d7fad37e3a32d98af65996f7c6f13ed747cc991bf123",
   "excluded_counts": {
     "archived": 170,
     "fork": 0,
@@ -7,42 +7,42 @@
     "private": 0
   },
   "fetched_repositories": 203,
-  "generated_at": "2026-09-21T22:00:17.922340Z",
+  "generated_at": "2026-09-22T21:22:11.150850Z",
   "languages": [
     {
       "color": "#dea584",
       "name": "Rust",
-      "percentage": 41.97794875486846,
+      "percentage": 41.97432212326505,
       "size": 37322933
     },
     {
       "color": "#3572A5",
       "name": "Python",
-      "percentage": 25.615020005385848,
-      "size": 22774521
+      "percentage": 25.621086521162095,
+      "size": 22781883
     },
     {
       "color": "#7355dd",
       "name": "C#",
-      "percentage": 9.684944148578024,
+      "percentage": 9.684107430120635,
       "size": 8610962
     },
     {
       "color": "#f34b7d",
       "name": "C++",
-      "percentage": 7.097631000020054,
+      "percentage": 7.097017809198265,
       "size": 6310561
     },
     {
       "color": "#89e051",
       "name": "Shell",
-      "percentage": 6.435785697007564,
-      "size": 5722109
+      "percentage": 6.435589565630158,
+      "size": 5722429
     },
     {
       "color": "#555555",
       "name": "C",
-      "percentage": 2.186429372978248,
+      "percentage": 2.1862404791876298,
       "size": 1943972
     }
   ],
@@ -58,11 +58,11 @@
   "schema_version": 1,
   "stats": {
     "active_repositories": 33,
-    "code_bytes": 88910807,
+    "code_bytes": 88918489,
     "followers": 75,
     "forks": 58,
     "language_count": 26,
-    "stars": 541
+    "stars": 544
   },
   "username": "ayutaz"
 }
