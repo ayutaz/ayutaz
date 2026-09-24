@@ -22,6 +22,13 @@ I build interactive experiences across **games, speech AI, and devices** — fro
 - **[Kawaii Voice Changer](https://github.com/ayutaz/kawaii-voice-changer)** — Real-time voice conversion / voice processing experiments
 - **[uDesktopMascot](https://github.com/MidraLab/uDesktopMascot)** — AI desktop mascot / interactive character project
 
+### 🤝 Collaboration / Consulting
+I'm open to technical collaboration and consulting around:
+- **Speech AI architecture** — TTS, ASR, turn-taking, real-time voice systems
+- **On-device AI** — model optimization, deployment, edge inference
+- **Unity / game integration** — bringing AI models into interactive applications
+- **PoC / technical review** — model selection, feasibility studies, implementation review
+
 ### 🔬 Current Interests
 **Real-time Speech Interaction · Human Interaction · On-device AI · AI Characters · Embodied / Physical AI**
 
