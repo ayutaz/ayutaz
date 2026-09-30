@@ -43,7 +43,7 @@ class RepositoryWiringTests(unittest.TestCase):
         for name, (label, url) in links.items():
             expected = (
                 f'<a href="{url}"><img src="./assets/links/{name}.svg" '
-                f'alt="{label}" width="31%"></a>'
+                f'alt="{label}" width="23%"></a>'
             )
             self.assertIn(expected, readme)
 
@@ -51,6 +51,12 @@ class RepositoryWiringTests(unittest.TestCase):
             root = ET.fromstring(thumbnail.read_text(encoding="utf-8"))
             self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg")
             self.assertEqual(root.attrib["role"], "img")
+
+    def test_readme_links_hugging_face_profile(self) -> None:
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+
+        self.assertIn('<a href="https://huggingface.co/ayousanz">', readme)
+        self.assertIn('alt="Hugging Face" width="23%"', readme)
 
     def test_project_requires_python_313_or_newer(self) -> None:
         pyproject = (ROOT / "pyproject.toml").read_text(encoding="utf-8")
